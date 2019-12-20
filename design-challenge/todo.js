@@ -13,18 +13,9 @@ class User {
       return `'${taskString}' was added to your List`
   }
   completeTask(taskIndex) {
-      let holder = this.list[taskIndex];
-      this.list.splice(taskIndex, 1);
-      this.completedTasks.push(holder);
-      return 'Task Completed'
+      let holder = this.list[taskIndex]; // hold it
+      this.list.splice(taskIndex, 1); // delete original
+      this.completedTasks.push(holder); // push to completedTasks
+      return 'Task Completed' // confirm
   }
-}
-
-//Above does not include
-
-class Lists {
-   constructor(user) {
-      this.user == user;
-   }
-   newList()
 }

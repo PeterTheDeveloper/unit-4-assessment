@@ -6,9 +6,9 @@ Answer each of the questions below clearly and concisely. Include code snippets 
 
 **1. What is `this`?**
 
-'this' is a keyword used to reference the current lexical or execution context when it is invoked. Due to this, it will have a different value based on how it is executed.
-When used within the global object it will return all the properties of the Window object. An example os its usefulness is when we utilize factory functions. 
-It allows us to return objects with already speicified properties. 'this' will refer to the object that about to be created and pass the parameters in to define the object's properties.
+  'this' is a keyword used to reference the current lexical or execution context when it is invoked. Due to this, it will have a different value based on how it is executed.
+  When used within the global object it will return all the properties of the Window object. An example os its usefulness is when we utilize factory functions. 
+  It allows us to return objects with already speicified properties. 'this' will refer to the object that about to be created and pass the parameters in to define the object's properties.
 
 **2. What will the following code produce? Why?** 
 
@@ -37,7 +37,7 @@ It allows us to return objects with already speicified properties. 'this' will r
 
 **3. What is a closure? How does it allow us to create private data?**
 
-A closure is the concept that an inner function has access to variable passed to the outer function/ outer scope. This is done to not make the global object too contaminated while accomplishing the task.
+  A closure is the concept that an inner function has access to variable passed to the outer function/ outer scope. This is done to not make the global object too contaminated while accomplishing the task.
 
 **4. What will the following code log to the console? Why?**
 
@@ -67,7 +67,7 @@ A closure is the concept that an inner function has access to variable passed to
 
 **7. What is polymorphism? Illustrate using code.**
 
-Polymorphism a core concept that allwos us to perform a single action on different objects. It provides an ability to call the same method on different JavaScript objects.
+  Polymorphism a core concept that allwos us to perform a single action on different objects. It provides an ability to call the same method on different JavaScript objects.
 
 
 function person(name, grade) {
